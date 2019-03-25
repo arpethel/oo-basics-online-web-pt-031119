@@ -7,7 +7,11 @@ class Shoe
   end
 
   def cobble
-    puts "Your shoe is as good as new!"
+    if @condition == "new"
+      puts "Your shoe is as good as new!"
+    else
+      puts "You need a new pair."
+    end
   end
 
 
